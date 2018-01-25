@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zepedropaixao/paixaocv.svg?branch=master)](https://travis-ci.org/zepedropaixao/paixaocv)
+
 # My CV in TeX
 
 XeLaTex implementation of my CV
