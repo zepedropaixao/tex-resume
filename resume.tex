@@ -1,0 +1,175 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Pedro} \headerlastnamestyle{Azeredo Paixão} \\
+	\vspace{2mm}
+	\headersocialstyle{{\faEnvelope\ zepedropaixao@gmail.com} | {\faMobile\ (+351) 914 968 571} | {\faMapMarker\ Porto, Portugal} | {\faLink\ github.com/zepedropaixao} | {\faLink\ linkedin.com/zepedropaixao} | {\faLink\ paixao.me}}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Lead Android Software Engineer}
+	{Infraspeak}
+	{Porto, Portugal}
+	{April 2016 – Present}
+	{\begin{cvitems}
+		\item {Designed the architecture and implemented all the mobile applications used by thousands of maintenance technicians every day}
+		\end{cvitems}}
+	\cventry
+	{Co-Founder, CEO and Team Leader}
+	{SIMI}
+	{Porto, Portugal}
+	{April 2012 – August 2016}
+	{\begin{cvitems}
+		\item {Defined and implemented the back-end and the mobile applications}
+		\item {Managed the company and sold SIMI to Pizza Hut}
+		\end{cvitems}}
+	\cventry
+	{Co-Founder and Team Leader}
+	{LeanHub}
+	{Porto, Portugal}
+	{March 2014 – December 2014}
+	{\begin{cvitems}
+		\item {Designed the initial product architecture}
+		\item {Built and managed the R\&D team for the project}
+		\end{cvitems}}
+	\cventry
+	{Software Engineering Researcher}
+	{Sapo Labs / LIACC - Artificial Intelligence and Computer Science Lab}
+	{Porto, Portugal}
+	{September 2010 – March 2012}
+	{\begin{cvitems}
+		\item {Research topics: Natural Language Processing, Information Extraction, Information Retrieval, Text Mining}
+		\item {OntoExtract project - Implemented and wrote a book about the research involved (ISBN-10: 3659215740)}
+		\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{MSc in Software Engineering}
+	{Faculty of Engineering of the University of Porto (FEUP)}
+	{Porto, Portugal}
+	{2010}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Java, JavaScript, Perl, SQL, PHP, Kotlin, C++, C}} \\
+		Programming Frameworks:  & {\skill{ Android, ionic, jQuery, Laravel, Vue.js, Quasar, Play Framework}} \\
+		Spoken Languages:  & {\skill{ English, Portuguese, French, Spanish, Slovene}} \\
+		Soft Skills:  & {\skill{ Ability to Work Under Pressure, Self-motivation, Creativity, Good communication}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Native Android (Java + kotlin) app with a offline first workflow (MVP Architecture). Also built two adjacent Cordova apps in ionic and Quasar respectively}
+	{Infraspeak Mobile Applications}
+	{Java, Vue.js, Angular, ES6, JS, TS}
+	{https://www.infraspeak.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Sencha Touch + Ext + Cordova Android and iOS applications with a backend made with Java}
+	{SIMI Mobile Menu Application}
+	{JS, Ext, Cordova, Java, MySQL}
+	{http://getsimi.com/}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Web Application made with Play framework. It has live meeting rooms built using WebSockets}
+	{LeanHub Web Application with WebSockets}
+	{Java, Scala, MySQL, Solr, Node.js}
+	{https://www.lean-hub.com/}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Achievements \& Awards}
+\begin{cvhonors}
+	\cvhonor
+	{Young Entrepreneur of the Year Award}
+	{Infraspeak\textquotesingle{}s team won the Young Entrepreneur of the Year Award by ANJE}
+	{Porto, Portugal}
+	{December 2017}
+	\cvhonor
+	{500 Startups funding and program participation}
+	{Infraspeak\textquotesingle{}s team got into the 500 Startups acceleration program in San Francisco along with seed investment}
+	{San Francisco, California, USA}
+	{July 2016}
+	\cvhonor
+	{Pre-Seed funding for SIMI}
+	{Got a pre-seed investment for the SIMI project}
+	{Porto, Portugal}
+	{June 2014}
+	\cvhonor
+	{Kaizen Institute International Joint-Venture}
+	{Created a joint venture with Kaizen Institute International to build LeanHub}
+	{Porto, Portugal}
+	{March 2014}
+\end{cvhonors}
+\ 
+\end{document}
